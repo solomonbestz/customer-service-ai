@@ -1,0 +1,11 @@
+scikit-learn
+numpy
+scipy
+pandas
+gunicorn
+azure-ai-ml
+azure-identity
+azure-core
+azure-storage-blob
+msal
+python-dotenv

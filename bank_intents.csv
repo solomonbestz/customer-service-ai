@@ -1,0 +1,128 @@
+text,label
+"What's my account balance?",balance_inquiry
+"How much do I have left in my account?",balance_inquiry
+"Show me my balance",balance_inquiry
+"I want to check my balance",balance_inquiry
+"What is my current balance?",balance_inquiry
+"Can you tell me my balance?",balance_inquiry
+"How much is in my savings account?",balance_inquiry
+"Account balance please",balance_inquiry
+"I forgot my PIN",pin_reset
+"How do I reset my card PIN?",pin_reset
+"My ATM PIN isn't working",pin_reset
+"I need to change my PIN",pin_reset
+"Help me recover my PIN",pin_reset
+"Reset my PIN for me",pin_reset
+"I can't remember my PIN",pin_reset
+"How can I set a new PIN?",pin_reset
+"My ATM card was swallowed",card_issue
+"My card got stuck in the machine",card_issue
+"I lost my debit card",card_issue
+"My ATM card is missing",card_issue
+"My card is damaged, I need a new one",card_issue
+"My card was eaten by the ATM",card_issue
+"My card was retained by an ATM",card_issue
+"Why was money deducted from my account?",complaint
+"I want to report an incorrect debit",complaint
+"There's a wrong charge on my account",complaint
+"I was billed twice for the same thing",complaint
+"I need to file a complaint about my transaction",complaint
+"Dispute a transaction",complaint
+"Someone charged me incorrectly",complaint
+"How do I update my KYC?",update_kyc
+"What documents do I need for KYC update?",update_kyc
+"I need to renew my KYC details",update_kyc
+"Where do I complete my KYC?",update_kyc
+"Help me update my KYC information",update_kyc
+"Upload my KYC documents",update_kyc
+"How do I submit new KYC?",update_kyc
+"When does my KYC expire?",kyc_expiry_query
+"Is my KYC still valid?",kyc_expiry_query
+"How often do I need to renew KYC?",kyc_expiry_query
+"Check my KYC expiration date",kyc_expiry_query
+"Do I need to renew my KYC soon?",kyc_expiry_query
+"When is my KYC due?",kyc_expiry_query
+"Remind me to renew my KYC",kyc_renewal_reminder
+"Set a KYC renewal reminder",kyc_renewal_reminder
+"Notify me when my KYC is due",kyc_renewal_reminder
+"I want alerts for KYC expiry",kyc_renewal_reminder
+"Ping me before my KYC expires",kyc_renewal_reminder
+"Where do I pick up my card?",card_pickup_location
+"What branch should I go to for card pickup?",card_pickup_location
+"Where can I collect my debit card?",card_pickup_location
+"I haven't picked up my card, where do I go?",card_pickup_location
+"Which location is my card at?",card_pickup_location
+"Which branch holds my card?",card_pickup_location
+"I haven't received my card",card_delivery_status
+"What's the status of my card delivery?",card_delivery_status
+"When will my debit card arrive?",card_delivery_status
+"My card hasn't come in the mail yet",card_delivery_status
+"Is my ATM card ready?",card_delivery_status
+"Where is my card shipment?",card_delivery_status
+"How do I activate my card?",card_activation
+"Help me activate my debit card",card_activation
+"My new card isn't active",card_activation
+"What’s the process for card activation?",card_activation
+"I want to activate my ATM card now",card_activation
+"Activate my card",card_activation
+"Remind me to activate my card",card_activation_reminder
+"Set a card activation reminder",card_activation_reminder
+"Notify me to activate my debit card",card_activation_reminder
+"Alert me if I forget to activate my card",card_activation_reminder
+"Set a reminder for card activation",card_activation_reminder
+"When is my next loan repayment due?",loan_due_query
+"Tell me my loan due date",loan_due_query
+"Do I have a loan due soon?",loan_due_query
+"Check my loan repayment schedule",loan_due_query
+"When do I need to repay my loan?",loan_due_query
+"Is my loan payment due this month?",loan_due_query
+"Set a reminder for my loan repayment",loan_due_reminder
+"Notify me before my loan is due",loan_due_reminder
+"Remind me about my loan date",loan_due_reminder
+"Add a reminder for my next loan payment",loan_due_reminder
+"Alert me 3 days before my loan due date",loan_due_reminder
+"Remind me when my DSTV bill is due",bill_due_reminder
+"Set a reminder for my electricity bill",bill_due_reminder
+"Notify me before my bill expires",bill_due_reminder
+"I want a monthly reminder for my bills",bill_due_reminder
+"Alert me before my PHCN bill is due",bill_due_reminder
+"My bill payment failed",bill_payment_failed
+"I tried paying my bill but it didn't go through",bill_payment_failed
+"The system declined my bill payment",bill_payment_failed
+"My PHCN payment didn't work",bill_payment_failed
+"I couldn't pay my subscription",bill_payment_failed
+"How do I top up airtime?",airtime_purchase
+"Help me buy airtime",airtime_purchase
+"I want to recharge my phone",airtime_purchase
+"My airtime purchase didn't go through",airtime_purchase
+"Show me how to load credit",airtime_purchase
+"I see a suspicious transaction",fraud_report
+"My account was compromised",fraud_report
+"I want to report fraud",fraud_report
+"Someone accessed my account without permission",fraud_report
+"There's a transaction I didn't authorise",fraud_report
+"What's the status of my loan application?",loan_application_status
+"Has my loan been approved?",loan_application_status
+"Is my loan still pending?",loan_application_status
+"Check my loan request",loan_application_status
+"Any update on my loan application?",loan_application_status
+"I want to set a savings goal",savings_goal_setup
+"Help me create a new savings plan",savings_goal_setup
+"I want to start saving toward a target",savings_goal_setup
+"How do I open a savings goal?",savings_goal_setup
+"Create a savings goal for me",savings_goal_setup
+"Remind me about my savings target",savings_goal_reminder
+"Set a savings reminder",savings_goal_reminder
+"Notify me to save this week",savings_goal_reminder
+"Alert me to contribute to my savings",savings_goal_reminder
+"Send reminders for my savings plan",savings_goal_reminder
+"Send 20,000 to my friend",transfer_funds
+"Transfer 5000 to John",transfer_funds
+"Send money to my brother",transfer_funds
+"Move 10,000 from my savings to checking",transfer_funds
+"I want to open a savings account",open_account
+"How do I open an account?",open_account
+"Start a new account for me",open_account
+"Update my phone number on file",change_phone_number
+"Change my phone number",change_phone_number
+"Replace my phone number with this new one",change_phone_number
