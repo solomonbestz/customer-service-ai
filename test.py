@@ -1,31 +1,17 @@
-import sys
-import os
+import requests
+import json
 
-# Add current directory to path
-sys.path.append('.')
+# Your endpoint details from the output
+scoring_uri = "https://bank-live-78bb0e.eastus.inference.ml.azure.com/score"
+key = "your-primary-key-here"
 
-try:
-    # Test imports
-    import json
-    import pickle
-    import numpy as np
-    print("✅ All imports successful")
-    
-    # Test model loading
-    if os.path.exists("bank_model.pkl"):
-        with open("bank_model.pkl", "rb") as f:
-            vectorizer, model = pickle.load(f)
-        print("✅ Model loaded successfully")
-        
-        # Test prediction
-        test_text = "check my balance"
-        X = vectorizer.transform([test_text])
-        pred = model.predict(X)
-        print(f"✅ Test prediction: {pred[0]}")
-    else:
-        print("❌ Model file not found!")
-        
-except Exception as e:
-    print(f"❌ Error: {str(e)}")
-    import traceback
-    traceback.print_exc()
+# Test request
+data = {"text": "I want to check my balance"}
+headers = {
+    "Authorization": f"Bearer {key}",
+    "Content-Type": "application/json"
+}
+
+response = requests.post(scoring_uri, json=data, headers=headers)
+print(f"Response: {response.status_code}")
+print(f"Prediction: {response.text}")
